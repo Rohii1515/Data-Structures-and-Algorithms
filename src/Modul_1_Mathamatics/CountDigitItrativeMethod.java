@@ -16,6 +16,6 @@ public class CountDigitItrativeMethod {
         System.out.println("Enter A Integer numbers: ");
         int input= sc.nextInt();
         System.out.println("Digits counts: "+CountDigit(input));
-        sc.close();
+        
     }
 }
