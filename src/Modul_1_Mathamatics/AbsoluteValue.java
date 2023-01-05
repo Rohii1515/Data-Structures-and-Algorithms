@@ -12,6 +12,6 @@ public class AbsoluteValue {
         System.out.println("Enter an Absolute Value: ");
         int temp=sc.nextInt();
         System.out.println(absolute(temp));
-        sc.close();
+        
     }
 }
