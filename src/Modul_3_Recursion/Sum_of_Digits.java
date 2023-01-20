@@ -16,4 +16,4 @@ public class Sum_of_Digits {
         System.out.println("Sum: "+fun(n));
         sc.close();
     }
-}
+}           
