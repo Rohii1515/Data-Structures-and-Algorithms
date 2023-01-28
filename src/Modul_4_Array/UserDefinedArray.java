@@ -13,7 +13,7 @@ public class UserDefinedArray {
 
         System.out.println("Array Elements Are________");
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }
