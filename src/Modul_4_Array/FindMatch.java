@@ -2,8 +2,8 @@ import java.util.*;
 
 public class FindMatch {
 
-    public static int search(int arr[], int len, int x) {
-        for (int i = 0; i < len; i++) {
+    public static int find(int arr[], int x, int n) {
+        for (int i = 0; i < n; i++) {
             if (arr[i] == x)
                 return i;
         }
@@ -11,10 +11,10 @@ public class FindMatch {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 10, 20, 30, 40 };
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Element to Find: ");
+        System.out.println("Enter a Element to find in array:");
         int x = sc.nextInt();
-        System.out.println(search(arr, arr.length, x));
+        int arr[] = { 10, 20, 30, 40, 50 };
+        System.out.println(find(arr, x, arr.length));
     }
 }
