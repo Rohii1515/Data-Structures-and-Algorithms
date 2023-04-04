@@ -47,7 +47,7 @@ public class Number_of_occurrence {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 5, 10, 10, 10, 50, 60, 60, 60, 60 };
+        int arr[] = { 5, 10, 10, 10, 50, 60, 60, 60, 60, 60 };
         System.out.println("Number Of Occurrence Elem: " + countEle(arr, 60));
 
     }
