@@ -17,10 +17,10 @@ class Simple_Bubble_Sort {
                     arr[j + 1] = temp;
                     swap = true;
                 }
-                if (swap == false) {
-                    break;
-                }
 
+            }
+            if (swap == false) {
+                break;
             }
 
         }
