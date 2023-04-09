@@ -35,7 +35,7 @@ class Simple_Bubble_Sort {
 
     public static void main(String[] args) throws java.lang.Exception {
         // your code goes here
-        int arr[] = { 5, 4, 1, 3, 2 };
+        int arr[] = { 1, 0, 1, 1, 0 };
         bubbleSort(arr);
         printing(arr);
     }
