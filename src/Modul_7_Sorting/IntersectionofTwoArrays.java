@@ -25,7 +25,7 @@ public class IntersectionofTwoArrays {
 
     public static void main(String[] args) {
         int a[] = { 2, 20, 20, 40, 60 };
-        int b[] = { 10, 20, 20, 20, 40 };
+        int b[] = { 10, 20, 20, 20 };
 
         intersection(a, b);
 
