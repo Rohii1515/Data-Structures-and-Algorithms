@@ -1,4 +1,4 @@
-public class frequncyElemArray {
+public class frequncyElemArray_Naive {
 
     static void count(int arr[], int n) {
         // outer loop for traversing left to right elements
