@@ -20,6 +20,7 @@ public class Insetion_Sort {
             }
             // placinf element at its perfect position
             // prev+1:- is used for prev is always head one step
+            // prev-- becomes -1 so prev+1=0;
             arr[prev + 1] = curr;
         }
     }
